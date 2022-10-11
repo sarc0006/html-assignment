@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(251, 243, 248);
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+header, footer {
+  background-color: rgb(102, 118, 87);
+}
+
+.site-title, .notesh {
+  color: rgb(227, 233, 238);
+}
+
+#my-image {
+  box-shadow: 0 0 2px 1px black;
+}
+
+.square {
+  list-style-type: square;
+}
+
+.square li:nth-child(odd) {
+  background: rgb(102, 118, 87);
+  color: rgb(251, 243, 248);
+  width: 250px;
+}
+
+li:nth-child(odd)::marker {
+	color: rgb(0, 0, 0);
+}
+
+a {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(102, 118, 87);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(102, 118, 87);
+  color: white;
+}
+
+.home, .notes {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(102, 118, 87);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
