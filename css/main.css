@@ -54,3 +54,7 @@ a:hover, a:active {
   text-decoration: none;
   display: inline-block;
 }
+
+footer {
+  color: rgb(227, 233, 238);
+}
